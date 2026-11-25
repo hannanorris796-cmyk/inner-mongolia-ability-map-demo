@@ -63,6 +63,8 @@
 .page-head h1:only-child{margin:0}
 @media(max-width:700px){.sidebar{width:min(260px,82vw)}.nav-backdrop{left:0}}
 
+@media(min-width:701px){.shell:has(.sidebar) .layout{margin-left:260px}.shell:has(.sidebar) .nav-backdrop{display:none}}
+
 .supply-section-title{display:flex;align-items:center;gap:8px;margin:14px 0 8px;font-size:14px;color:#263248}
 .supply-section-title small{font-size:11px;color:#8a96a8;font-weight:400}
 .supply-overview{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:10px;margin-bottom:12px}
